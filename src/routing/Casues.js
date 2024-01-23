@@ -52,5 +52,5 @@ export default Casuses;
 
 const casues = {
   backgroundColor: "#d3d3d3",
-  marginTop: "34px",
+  marginTop: "77px",
 };

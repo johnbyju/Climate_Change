@@ -5,11 +5,11 @@ const Undp = () => {
   return (
     <>
       <div className="row ">
-        <div className="col-6" style={{ width: "400px" }}>
+        <div className="col-6" style={{ width: "400px", marginTop :'70px',marginLeft:'20px' }}>
           <h1 className="">The Goals </h1>
           <p
             className=""
-            style={{ fontFamily: "ui-rounded", fontSize: "23px" }}
+            style={{ fontFamily: "ui-rounded", fontSize: "23px", marginTop : '24px',marginLeft : '24px'}}
           >
             As the United Nations lead agency on international development, UNDP
             works in 170 countries and territories to eradicate poverty and
@@ -24,7 +24,7 @@ const Undp = () => {
         <img
           className="col-6"
           src={fst1}
-          style={{ height: "550px", width: "700px", marginLeft: '250px'}}
+          style={{ height: "550px", width: "700px",marginLeft :'200px',marginTop :'70px' }}
         />
       </div>
       <div>
@@ -52,9 +52,6 @@ const Undp = () => {
         Promote reforestation (replanting trees in deforested areas) and
         afforestation (planting trees in areas that were not previously
         forested) to enhance carbon sequestration and biodiversity.
-        <br></br>
-        <br></br>
-        <br></br>
         <h4>Sustainable Agriculture:</h4>
         <p>
           Implement sustainable agricultural practices that reduce
@@ -81,6 +78,32 @@ const Undp = () => {
           reuse and recycling of materials. Reducing waste and promoting
           sustainable consumption patterns contribute to lower carbon
           footprints.
+        </p>
+        <h4>International Cooperation:</h4>
+        <p>
+          Foster international cooperation and collaboration to address climate
+          change collectively. This involves supporting developing nations in
+          their efforts to adapt to and mitigate climate change, as well as
+          sharing knowledge and technologies.
+        </p>
+        <h4>Public Awareness and Education:</h4>
+        <p>
+          Increase public awareness and education on climate change issues, its
+          impacts, and the importance of individual and collective actions.
+          Informed and engaged communities are more likely to support and adopt
+          sustainable practices.
+        </p>
+        <h4>Policy and Regulation:</h4>
+        <p>
+          Advocate for and implement policies and regulations that incentivize
+          and enforce sustainable practices. Governments play a crucial role in
+          creating a regulatory framework that supports climate action.
+        </p>
+        <h4>Innovation and Research:</h4>
+        <p>
+          Invest in research and innovation to develop new technologies and
+          solutions for climate mitigation and adaptation. Scientific
+          advancements can drive breakthroughs in sustainable practices.
         </p>
       </div>
     </>

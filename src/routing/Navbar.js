@@ -9,7 +9,7 @@ const  CustomNavbar =() => {
     <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
       <div className="container-fluid">
         <Navbar.Brand> <Link to='/Landing'></Link>
-          <img id="logo" src={icon} alt="Loading" width="100" height="70" />
+          <img id="logo" src={icon} alt="Loading" width="100" height="40" />
           <br/>
           <h5 id="head" className="text-light">
            
